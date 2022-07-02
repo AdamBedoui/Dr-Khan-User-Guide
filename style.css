@@ -26,6 +26,12 @@ body {
     padding-right: 2rem;
   }
 }
+
+.article-title__meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .table-of-content ul {
   list-style: none;
 }
@@ -48,9 +54,11 @@ body {
   left: -2rem;
   margin-right: 1em;
 }
+a {
+  color: #5333ed;
+}
 .table-of-content ul li a {
   font-size: 18px;
-  color: #5333ed;
 }
 
 .table-of-content ul li {
@@ -96,4 +104,10 @@ figure img {
 .info {
   font-weight: 500;
   color: #0c022f;
+}
+
+.article-title__meta-image img {
+  border-radius: 50%;
+  width: 70px;
+  aspect-ratio: 1 / 1;
 }
