@@ -26,7 +26,7 @@ body {
     padding-right: 2rem;
   }
 }
-.table-of-content ol {
+.table-of-content ul {
   list-style: none;
 }
 
@@ -42,14 +42,19 @@ body {
   padding-right: 3rem;
 }
 
-.table-of-content ol li::before {
+.table-of-content ul li::before {
   color: #999;
   content: "→";
   left: -2rem;
   margin-right: 1em;
 }
-.table-of-content ol li a {
+.table-of-content ul li a {
   font-size: 18px;
+  color: #5333ed;
+}
+
+.table-of-content ul li {
+  padding: 5px;
 }
 
 h1,
