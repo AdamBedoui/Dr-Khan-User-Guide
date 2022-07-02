@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@200;300;400;500;700&family=Montserrat:wght@200;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #6e7076;
+  font-family: "Arima", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding: 8em;
+}
+
+#main {
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 48em) {
+  #main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.table-of-content ol {
+  list-style: revert;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  margin: 10px 0;
+  color: #000000;
+}
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-size: 42px;
+}
+
+p,
+ul {
+  margin: 10px 0;
+}
+
+.post-content ul {
+  margin-left: 40px;
+}
+
+figure {
+  text-align: center;
+  margin: 30px 0 40px 0;
+}
+figure img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.info {
+  font-weight: 500;
+  color: #0c022f;
+}
