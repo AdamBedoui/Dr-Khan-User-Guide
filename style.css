@@ -30,6 +30,18 @@ body {
   list-style: revert;
 }
 
+.table-of-content {
+  background-color: #f9f9fb;
+  border-radius: 0.25rem;
+  line-height: 1.6;
+  margin: 3rem -1rem !important;
+  max-width: 100vw;
+  padding: 2rem 1rem;
+  width: auto !important;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 h1,
 h2,
 h3,
