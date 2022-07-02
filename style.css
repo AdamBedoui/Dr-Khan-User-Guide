@@ -27,7 +27,7 @@ body {
   }
 }
 .table-of-content ol {
-  list-style: revert;
+  list-style: none;
 }
 
 .table-of-content {
@@ -40,6 +40,16 @@ body {
   width: auto !important;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.table-of-content ol li::before {
+  color: #999;
+  content: "→";
+  left: -2rem;
+  margin-right: 1em;
+}
+.table-of-content ol li a {
+  font-size: 18px;
 }
 
 h1,
