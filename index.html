@@ -167,7 +167,59 @@
           Now you can open the front site and check that everything is working
           well.
         </p>
+
         <figure><img src="./images/front-site.png" alt="Front Site" /></figure>
+        <p>
+          One important thing that we need to do after the website is live is to
+          reconfigure reCAPTCHA V3 API Keys according to the new domain
+        </p>
+        <p>
+          Because the new domain should be added to list of supported domains
+          associated with this reCAPTCHA API Key, it it shows in this image :
+        </p>
+        <figure>
+          <img
+            src="./images/recaptcha-error.png"
+            alt="reCAPTCHA Error message"
+          />
+        </figure>
+        <p>There two ways of fixing This.</p>
+        <p>
+          1- First Solution is to give the developer (Adam) the new domain name,
+          and I will whitelist it by my self by adding to the domain list of the
+          current API Key
+        </p>
+        <p>But the is not a good practice</p>
+        <p>
+          2- Second solution, is to create a new API Key here
+          https://www.google.com/recaptcha/intro/v3.html then add it by
+          following these steps :
+        </p>
+        <p>
+          From the WordPress dashbord, go to
+          <span class="info">Elementor</span> menu, then
+          <span class="info">Settings</span> then
+          <span class="info">Integrations</span>
+        </p>
+        <figure>
+          <img
+            src="./images/elementor-settings.png"
+            alt="reCAPTCHA Error message"
+          />
+        </figure>
+        <p>
+          Add the API Keys and don't forget to click on the
+          <span class="info">Save</span> button
+        </p>
+        <figure>
+          <img
+            src="./images/recaptch-elementor.png"
+            alt="reCAPTCHA Elementor"
+          />
+        </figure>
+        <figure>
+          <img src="./images/save-btn.png" alt="Save Button" />
+        </figure>
 
         <!-- ______________________________________________________-->
         <!-- ________________ Customization Section ________________ -->
